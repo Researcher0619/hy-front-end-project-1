@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+
+    <title>CatPhotoApp</title>
+
+    <!-- Minified version -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <div class="cat-photo-container">
+        <a href="https://freecatphotoapp.com">
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+        </a>
+        <aside>
+          <p>Did you know that cats have a unique grooming pattern called "allogrooming" where they lick each other to strengthen social bonds?</p>
+          <p>Cats have a specialized collarbone that allows them to squeeze through tight spaces, even if their heads are wider than the space.</p>
+          <p>A group of cats is called a "clowder" and a group of kittens is called a "kindle".</p>
+        </aside>
+      </div>
+      <style>
+        .cat-photo-container {
+          display: flex;
+        }
+
+        .cat-photo-container img {
+          flex: 1;
+        }
+
+        .cat-photo-container aside {
+          flex: 1;
+          margin-left: 20px;
+        }
+      </style>
+      <div class="cat-photo-container">
+        <!-- Standard image -->
+        <img alt="A cute cat resting" src="https://media.istockphoto.com/id/1322123064/tr/fotoğraf/güneş-gözlüğü-ve-gömlekli-sevimli-beyaz-bir-kedinin-portresi-sarı-bir-arka-plan-üzerinde.jpg?s=612x612&w=0&k=20&c=yivvUGud_c5-Re0Z8g-mtmYkEjMAKjQJegP0ayAxgZ4=" />
+
+        <!-- Image with a caption -->
+
+      </div>
+
+      <figure>
+        <img alt="A curious cat exploring" src="https://media.istockphoto.com/id/937207226/tr/fotoğraf/komik-kedi-ile-a-fotoğraf-makinesi.jpg?s=612x612&w=0&k=20&c=pcMB1_9gv3f-pXPDvZXcbhml1AMKpSmPdxcex9Pn82w=" />
+        <figcaption>A curious cat exploring</figcaption>
+      </figure>
+
+      <details>
+        <summary>Did you know?</summary>
+        <p>Cats have a specialized collarbone called the "wishbone" or "clavicle" that allows them to squeeze through tight spaces, even if their heads are wider than the space. This unique adaptation helps them navigate and explore their environment effectively!</p>
+      </details>
+
+
+      <section>
+        <h2>Cat Lists</h2>
+        <figure>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Number</th>
+                <th>Opinion on cheese</th>
+                <th>Favourite tea</th>
+                <th>Colour of choice</th>
+                <th>Unusual fact</th>
+                <th>Horse?</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Whiskers</td>
+                <td>012345</td>
+                <td>Sometimes</td>
+                <td>Earl grey, hot</td>
+                <td>Blue</td>
+                <td>Communicates exclusively in metaphors</td>
+                <td>Aye</td>
+              </tr>
+              <tr>
+                <td>Mittens</td>
+                <td>112346</td>
+                <td>Only on Tuesdays</td>
+                <td>The green one</td>
+                <td>The green one</td>
+                <td>Caught a glimpse of an Australian badger</td>
+                <td>Aye</td>
+              </tr>
+              <tr>
+                <td>Fluffy</td>
+                <td>493029</td>
+                <td>Always eat the rind</td>
+                <td>London fog</td>
+                <td>Purple</td>
+                <td>Has never been to London</td>
+                <td>Aye</td>
+              </tr>
+              <tr>
+                <td>Shadow</td>
+                <td>395499</td>
+                <td>It's on the moon</td>
+                <td>Camomile</td>
+                <td>Yellow</td>
+                <td>Has been to the moon</td>
+                <td>Aye</td>
+              </tr>
+              <tr>
+                <td>Paws</td>
+                <td>002458</td>
+                <td>No</td>
+                <td>Black tea brewed using ISO 3103</td>
+                <td>Chestnut</td>
+                <td>Has a 350° field of view</td>
+                <td>Neigh</td>
+              </tr>
+            </tbody>
+          </table>
+          <figcaption>A wide table showing horizontal scroll behavior.</figcaption>
+        </figure>
+
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>
+        </figure>
+
+        <blockquote>
+          <p class="notice">Attention cat lovers! Did you know that cats spend approximately 70% of their lives sleeping? Now that's the purrfect life!</p>
+        </blockquote>
+
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form>
+          <p><strong>Please fill out the form to share your thoughts about cats!</strong></p>
+
+          <p><select>
+            <option selected="selected" value="1">Title</option>
+            <option value="2">Mr</option>
+            <option value="3">Miss</option>
+            <option value="4">Mrs</option>
+            <option value="5">Other</option>
+          </select></p>
+
+          <p>
+            <label>First name</label>
+            <input type="text" name="first_name" required>
+          </p>
+
+          <p>
+            <label>Surname</label>
+            <input type="text" name="surname" required>
+          </p>
+
+          <p>
+            <label>Email</label>
+            <input type="email" name="email" required>
+          </p>
+
+          <p>
+            <label>Enquiry type:</label><br>
+            <label><input checked="checked" name="type" type="radio" value="adoption" /> Adoption</label><br>
+            <label><input name="type" type="radio" value="healthcare" /> Healthcare</label><br>
+            <label><input name="type" type="radio" value="behavior" /> Behavior</label>
+          </p>
+
+          <p>
+            <label>Message</label><br>
+            <textarea rows="6" required></textarea>
+          </p>
+
+          <p>
+            <label for="cats">Select your favorite cat breed:</label><br>
+            <select name="cats" id="cats">
+              <option value="siamese">Siamese</option>
+              <option value="persian">Persian</option>
+              <option value="maine-coon">Maine Coon</option>
+              <option value="ragdoll">Ragdoll</option>
+            </select>
+          </p>
+
+          <p>
+            <label><input type="checkbox" id="terms" required>I agree to the <a href="#">terms and conditions</a></label>
+          </p>
+
+          <button type="submit">Send</button>
+          <button type="reset">Reset</button>
+          <button disabled="disabled">Disabled</button>
+        </form>
+
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        No Copyright - <a href="https://cat.ozkanceyhan.dev">cat.ozkanceyhan.dev</a>
+      </p>
+    </footer>
+  </body>
+</html>
